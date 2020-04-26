@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.main-container {
+  background-color: #f2f2f2;
+  width: 960px;
+  height: 960px;
+
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: red;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
