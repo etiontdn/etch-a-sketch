@@ -10,17 +10,24 @@
   width: 960px;
   height: 960px;
 
+  user-select: none;
 
   display: flex;
   flex-wrap: wrap;
 }
 
 .square {
-  background-color: red;
+  user-select: none;
+}
+
+.hovered-square {
+  background-color: black;
+  opacity: 1;
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
